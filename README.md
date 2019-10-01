@@ -15,3 +15,7 @@ This is currently done by assuming a role that was manually created in the root 
   * `tf workspace new {NEW_WORKSPACE_NAME}`
   * `tf plan --var=file=variables/sandbox.tfvars --out=out.out`
   * `tf apply out.out`
+
+### Visualizing AWS Costs
+
+Once cost metrics have been exported to Prometheus, you can create create graphs to better visualize the your AWS costs over time.  See the [example grafana template](aws-cost-grafana-example.json) for guidance.
