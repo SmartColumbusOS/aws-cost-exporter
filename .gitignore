@@ -1,0 +1,9 @@
+.pytest_cache
+.vscode
+__pycache__
+*.pyc
+outputs/
+terraform.tfstate.d
+.terraform
+*.plan
+*.out
